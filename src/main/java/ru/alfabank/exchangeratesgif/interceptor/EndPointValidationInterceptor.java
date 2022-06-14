@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 @Component
 public class EndPointValidationInterceptor implements HandlerInterceptor {
     private static final String REGEX = "/rates/" + "[A-Z]{3}";
-    private final String MESSAGE_BAD_REQUEST = "Введен не верный запрос, пример запроса: rates/RUB";
+    private final String MESSAGE_BAD_REQUEST = "Invalid request entered, sample request: rates/RUB";
     private final int STATUS_BAD_REQUEST = 400;
 
     @Override
