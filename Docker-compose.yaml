@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  alfatestapp:
+    image: 'alfatest'
+    container_name: alfa
+    ports:
+      - 8080:8080
+
+
+
+
